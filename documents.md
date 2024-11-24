@@ -36,13 +36,14 @@ Programming Language: Python 3.8 or above
 Framework: Flask
 
 Libraries:
-- Natural Language Toolkit (NLTK)
-PyPDF2
-OpenAI GPT (or other language models)
-SQLAlchemy (for database management)
-Pandas, NumPy (for data processing)
 
-Database: SQLite or any compatible RDBMS
+- Natural Language Toolkit (NLTK)
+  PyPDF2
+- GeminiAI GPT (or other language models)
+- vector database (for database management)
+- Pandas, NumPy (for data processing)
+
+Database: vector database 
 
 ## Installation
 1. Clone the Repository:
@@ -90,7 +91,7 @@ Save the output in a preferred format (PDF, DOCX).
 
 ## Future Enhancements
 
-Add support for multiple exam formats (MCQs, short answers, etc.).
-Enable multi-language support for regional examinations.
-Integrate with Learning Management Systems (LMS).
-Advanced AI models for improved question diversity.
+1. Add support for multiple exam formats (MCQs, short answers, etc.).
+2. Enable multi-language support for regional examinations.
+3. Integrate with Learning Management Systems (LMS).
+4. Advanced AI models for improved question diversity.
